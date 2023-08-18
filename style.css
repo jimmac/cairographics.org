@@ -452,7 +452,7 @@ tbody td {
   line-height: normal;
   padding: 2px 1rem;
   border-radius: 12px;
-  background-color: var(--cairo2);
+  background-color: var(--cairo3);
   max-width: 100%;
   overflow-x: auto;
 }
@@ -462,9 +462,19 @@ tbody td {
   }
   
 .highlighter-rouge * {
-  background-color: var(--cairo2);
+  background-color: var(--cairo3);
   color: var(--cairo4);
 }
+pre {
+  max-width: 80vw;
+  overflow-x: auto;
+  line-height: normal;
+  padding: 1rem;
+  border-radius: 12px;
+  background-color: var(--cairo3);
+  color: var(--cairo4);
+}
+
 
 /* Inline Code */
 code.highlighter-rouge {

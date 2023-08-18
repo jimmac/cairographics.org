@@ -30,7 +30,7 @@ Documentation for Cairo is an area that could always be greatly improved. Contri
 
 Here are the most useful starting points:
 
-- [Frequently asked questions](../FAQ/): Save yourself some time by reading this early.
+- [Frequently asked questions](faq/): Save yourself some time by reading this early.
 - [Tutorial](../tutorial/): A one-of-a-kind introduction to the cairo concepts and models.
 - [API reference manual](/manual/): Function-by-function reference.
 - [Cookbook](../cookbook/): Simple recipes for drawing.
