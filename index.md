@@ -41,13 +41,6 @@ Other information that might be of interest:
 - [Bibliography](../bibliography/): Where the good ideas came from.
 - [Building](../building/): Various recipes for compiling Cairo sources on different platforms and with different goals.
 
-## Editing this Website
-
-Currently, the cairo website can only be edited via git. You can get the sources by running:
-
-```bash
-git clone git://cairographics.org/git/cairo-www
-```
 
 ## Off-site Material
 
