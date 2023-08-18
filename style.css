@@ -56,8 +56,14 @@
   --dark3: rgb(61,56,70);
   --dark4: rgb(36,31,49);
   --dark5: rgb(0,0,0);
-  --primary-color: var(--green5); /* Set your project color */
-  --borders: var(--light3);
+  
+  --cairo1: #000;
+  --cairo2: #4a4e6d;
+  --cairo3: #b39400;
+  --cairo4: #f8e2a9;
+  --primary-color: var(--cairo3); /* Set your project color */
+  
+  --
 }
 
 /* Typography */
@@ -85,14 +91,15 @@ html, body {
   scroll-behavior: smooth;
 }
 body {
-  color: #241f31;
-  background-color: #f6f5f4;
+  color: var(--cairo1);
+  background-color: var(--cairo3);
   /* ⇩⇩ put footer at the bottom for short pages, such as the 404 ⇩⇩ */
   display: grid;
   min-height: 100vh;
   grid-template-rows: auto minmax(auto,1fr) auto; /* header, stuff, footer */
 }
 h1, h2, h3, h4, h5, h6 {
+  color: var(--cairo2);
   margin: 3rem 0 1rem;
   font-weight: 600;
   line-height: 1.25;
@@ -132,7 +139,7 @@ h2 {
 a {
   font-weight: 600;
   text-decoration: none;
-  color: var(--primary-color);
+  color: var(--cairo4);
   cursor: pointer;
   font-variation-settings: "wght" 600; /* needed for webkit */
 }
@@ -174,7 +181,7 @@ img {
 /* Singletons */
 #logo {
   display: block;
-  width: 251px; height: 26px;
+  width: 300px; height: 75px;
   background: url('assets/page-logo.svg') no-repeat center;
   padding: 5rem 0 3rem;
   margin: 0 auto;
@@ -445,8 +452,8 @@ tbody td {
 .highlighter-rouge {
   line-height: normal;
   padding: 2px 1rem;
-  border-radius: 5px;
-  background-color: var(--light1);
+  border-radius: 12px;
+  background-color: var(--cairo2);
   max-width: 100%;
   overflow-x: auto;
 }
@@ -456,7 +463,8 @@ tbody td {
   }
   
 .highlighter-rouge * {
-  background-color: var(--light1);
+  background-color: var(--cairo2);
+  color: var(--cairo4);
 }
 
 /* Inline Code */
