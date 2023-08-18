@@ -58,12 +58,19 @@
   --dark5: rgb(0,0,0);
   
   --cairo1: #000;
-  --cairo2: #4a4e6d;
-  --cairo3: #b39400;
+  --cairo2: #ffbe6f;
+  --cairo3: #6288b7;
   --cairo4: #f8e2a9;
   --primary-color: var(--cairo3); /* Set your project color */
-  
-  --
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+  --cairo1: #fff;
+  --cairo2: #4a4e6d;
+  --cairo3: #b39400;
+  --cairo4: #000;
+  }
 }
 
 /* Typography */
@@ -92,14 +99,15 @@ html, body {
 }
 body {
   color: var(--cairo1);
-  background-color: var(--cairo3);
+  background-color: var(--cairo2);
   /* ⇩⇩ put footer at the bottom for short pages, such as the 404 ⇩⇩ */
   display: grid;
   min-height: 100vh;
   grid-template-rows: auto minmax(auto,1fr) auto; /* header, stuff, footer */
 }
+
 h1, h2, h3, h4, h5, h6 {
-  color: var(--cairo2);
+  color: var(--dark3);
   margin: 3rem 0 1rem;
   font-weight: 600;
   line-height: 1.25;
@@ -122,24 +130,10 @@ h2 {
   font-size: 1.2rem;
 }
 
-@media (prefers-color-scheme: dark) {
-  body {
-    filter: invert(100%) hue-rotate(180deg);
-  }
-
-  html {
-    background-color: var(--dark5);
-  }
-
-  img, video, iframe {
-    filter: invert(100%) hue-rotate(180deg);
-  }
-}
-
 a {
   font-weight: 600;
   text-decoration: none;
-  color: var(--cairo4);
+  color: var(--cairo2);
   cursor: pointer;
   font-variation-settings: "wght" 600; /* needed for webkit */
 }

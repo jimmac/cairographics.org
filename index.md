@@ -1,7 +1,12 @@
 ---
 layout: default
 ---
-![Pixels](assets/splash.png){:.full}
+
+<picture>
+    <source srcset="assets/splash-dark.png" media="(prefers-color-scheme: dark)">
+    <img src="assets/splash.png">
+</picture>
+
 
 
 # Cairo 2D Graphics Library
