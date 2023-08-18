@@ -133,7 +133,7 @@ h2 {
 a {
   font-weight: 600;
   text-decoration: none;
-  color: var(--cairo2);
+  color: var(--cairo3);
   cursor: pointer;
   font-variation-settings: "wght" 600; /* needed for webkit */
 }
