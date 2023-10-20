@@ -9,6 +9,8 @@ description: "Draw 2D using this graphics library."
 issuesurl: "https://github.com/jimmac/cairographics.org/issues" # issue tracker for website
 permalink: /:title/
 primary-color: "#b39400" #used in ios theme. further color customization in style.css  
+date_format: "%Y-%m-%d"
+
 
 # Build settings
 markdown: kramdown
