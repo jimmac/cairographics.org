@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<picture>
+<picture class="full pixels">
     <source srcset="assets/splash-dark.png" media="(prefers-color-scheme: dark)">
     <img src="assets/splash.png">
 </picture>

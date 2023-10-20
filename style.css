@@ -57,19 +57,20 @@
   --dark4: rgb(36,31,49);
   --dark5: rgb(0,0,0);
   
-  --cairo1: #000;
-  --cairo2: #ffbe6f;
-  --cairo3: #6288b7;
-  --cairo4: #f8e2a9;
+  --cairo1: #000; /* fg */
+  --cairo2: #e7d1be; /* bg */
+  --cairo3: #6288b7; /* term bg */
+  --cairo4: #f8e2a9; /* term fg */
   --primary-color: var(--cairo3); /* Set your project color */
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
   --cairo1: #fff;
-  --cairo2: #4a4e6d;
-  --cairo3: #b39400;
+  --cairo2: #1b2447;
+  --cairo3: #0d1329;
   --cairo4: #000;
+  --primary-color: #8c7bd6;
   }
 }
 
@@ -138,7 +139,7 @@ h2 {
 a {
   font-weight: 600;
   text-decoration: none;
-  color: var(--cairo3);
+  color: var(--primary-color);
   cursor: pointer;
   font-variation-settings: "wght" 600; /* needed for webkit */
 }
@@ -162,8 +163,8 @@ img {
   margin: 2rem auto;
   max-width: 100%;
   }
-  img.full { width: 100%; }
-  img.pixels { 
+  img.full, picture.full img { width: 100%; }
+  img.pixels, picture.pixels img { 
     image-rendering: crisp-edges; /* older firefox browsers */ 
     image-rendering: pixelated; 
   }
@@ -199,7 +200,6 @@ img {
 
   @media (prefers-color-scheme: dark) {
     #logo {
-      filter: invert(100%) hue-rotate(180deg); /* uninvert */
       background-image: url('assets/page-logo-i.svg');
     }
   }
