@@ -7,10 +7,7 @@ layout: default
     <img src="assets/splash.png">
 </picture>
 
-
-
 # Cairo 2D Graphics Library
-
 
 Cairo is a 2D graphics library with support for multiple output devices. Currently supported [output targets](#cairo-backends) include the X Window System (via both [Xlib](./Xlib/) and XCB), Quartz, Win32, image buffers, PostScript, PDF, and SVG file output.
 
@@ -21,6 +18,11 @@ The [cairo API](/manual/) provides operations similar to the drawing operators o
 Cairo is implemented as a library written in the C programming language, but [bindings](./bindings/) are available for several different programming languages.
 
 Cairo is [free software](http://www.fsf.org/licensing/essays/free-sw.html) and is available to be redistributed and/or modified under the terms of either the GNU Lesser General Public License (LGPL) version 2.1 or the Mozilla Public License (MPL) version 1.1 at your option.
+
+## News
+
+FIXME: Point to [news](news/).
+
 
 ## Cairo Documentation and Off-site Material
 
@@ -107,4 +109,3 @@ Other backends that are in progress or have been proposed include:
 
 
 
-Written with love using [Apostrophe](https://flathub.org/apps/details/org.gnome.gitlab.somas.Apostrophe).

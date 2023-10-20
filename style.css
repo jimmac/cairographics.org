@@ -169,6 +169,11 @@ img {
     image-rendering: pixelated; 
   }
 
+ul.news {
+  display: block;
+  list-style: none;
+}
+  ul.news .date { opacity:.4; }
 
 /* Layout */
 .container {

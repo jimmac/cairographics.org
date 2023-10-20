@@ -12,3 +12,8 @@ primary-color: "#b39400" #used in ios theme. further color customization in styl
 
 # Build settings
 markdown: kramdown
+
+collections:
+  news:
+    output: true
+    sort_by: date
