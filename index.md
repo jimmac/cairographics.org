@@ -9,11 +9,11 @@ layout: default
 
 # Cairo 2D Graphics Library
 
-Cairo is a 2D graphics library with support for multiple output devices. Currently supported [output targets](#cairo-backends) include the X Window System (via both [Xlib](./Xlib/) and XCB), Quartz, Win32, image buffers, PostScript, PDF, and SVG file output.
+Cairo is a 2D graphics library with support for multiple output devices. Currently supported [output targets](#cairo-backends) include the X Window System (via both Xlib and XCB), Quartz, Win32, image buffers, PostScript, PDF, and SVG file output.
 
 Cairo is designed to produce consistent output on all output media while taking advantage of display hardware acceleration when available (e.g., through the X Render Extension).
 
-The [cairo API](/manual/) provides operations similar to the drawing operators of PostScript and PDF. Operations in cairo include stroking and filling cubic Bézier splines, transforming and compositing translucent images, and antialiased text rendering. All drawing operations can be transformed by any affine transformation (scale, rotation, shear, etc.).
+The [Cairo API](https://www.cairographics.org/manual/) provides operations similar to the drawing operators of PostScript and PDF. Operations in cairo include stroking and filling cubic Bézier splines, transforming and compositing translucent images, and antialiased text rendering. All drawing operations can be transformed by any affine transformation (scale, rotation, shear, etc.).
 
 Cairo is implemented as a library written in the C programming language, but [bindings](./bindings/) are available for several different programming languages.
 
@@ -27,6 +27,7 @@ Cairo is [free software](http://www.fsf.org/licensing/essays/free-sw.html) and i
 - [News](news/). Release notes & other news.
 - [Frequently asked questions](faq/): Save yourself some time by reading this early.
 - [Tutorial](tutorial/): A one-of-a-kind introduction to the cairo concepts and models.
+- [API reference manual](https://www.cairographics.org/manual/): Function-by-function reference. 
  
 ## Cairo Documentation and Off-site Material
 
