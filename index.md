@@ -19,6 +19,11 @@ Cairo is implemented as a library written in the C programming language, but [bi
 
 Cairo is [free software](http://www.fsf.org/licensing/essays/free-sw.html) and is available to be redistributed and/or modified under the terms of either the GNU Lesser General Public License (LGPL) version 2.1 or the Mozilla Public License (MPL) version 1.1 at your option.
 
+<a href="news/"><picture class="pixels">
+    <source srcset="assets/news-dark.png" media="(prefers-color-scheme: dark)">
+    <img src="assets/news.png">
+</picture></a>
+
 - [News](news/). Release notes & other news.
 - [Frequently asked questions](faq/): Save yourself some time by reading this early.
 - [Tutorial](tutorial/): A one-of-a-kind introduction to the cairo concepts and models.
