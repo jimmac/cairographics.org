@@ -62,7 +62,7 @@ Here is a collection of pointers to articles that have been written elsewhere ab
 - [The Cairo graphics tutorial](http://zetcode.com/tutorials/cairographicstutorial/): A comprehensive tutorial in C programming language and GTK+ library.
 - [Monochrome icon](http://wiki.xfce.org/howto/monochrome-icon): A tutorial that explains how to include a monochrome icon inside a GTK+ application.
 
-### Presentations about cairo
+### Presentations About Cairo
 
 - [Co-maintaining cairo: cool community, cool code](http://behdad.org/download/Presentations/cairo-code-community/slides.pdf) by Behdad Esfahbod and Carl Worth, presented at GUADEC in July 2007.
 - [An Insider's Guide to Cairo](http://cworth.org/~cworth/papers/cairo_ddc2005/) by Carl Worth, presented at the Desktop Developer's Conference in July 2005.
