@@ -1,6 +1,6 @@
 # Site settings
 title: Cairo Graphics
-baseurl: "/cairographics.org/" # the subpath of your site, e.g. /blog/
+baseurl: "/cairographics.org" # the subpath of your site, e.g. /blog/
                                  # usually empty. necessary for building absolute URIs
                                  # for metadata header
 url: "https://jimmac.github.io"   # the base hostname & protocol for your site
@@ -18,3 +18,5 @@ collections:
     output: true
     permalink: "/cairographics.org/:collection/:title/"
     layout: news
+    sort_by: date
+    reverse: true
