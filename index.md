@@ -52,12 +52,8 @@ Here is a collection of pointers to articles that have been written elsewhere ab
 ### Tutorials
 
 - [Cairo Tutorial for Python (and other) Programmers](http://www.tortall.net/mu/wiki/CairoTutorial): Provides a one-of-a-kind introduction to the cairo concepts and models that will be helpful to programmers using cairo from any programming language.
-- [Using Cairo with Xlib](../Xlib/): How to use Cairo in simple Xlib-based GUI applications, with no Gtk required.
 - [Writing a widget using cairo and GTK+ 2.8](http://thegnomejournal.wordpress.com/2005/12/02/writing-a-widget-using-cairo-and-gtk2-8/): A well-written tutorial by Davyd Madeley that provides a reasonable introduction to cairo even for users not using GTK+.
 - [Writing a widget using cairo and PyGTK 2.8](http://www.pygtk.org/articles/cairo-pygtk-widgets/cairo-pygtk-widgets.htm): A "translation" of the above tutorial from C to Python.
-- [Using Cairo with Visual Studio](../visualstudio/): A basic guide for developing cairo applications using Visual Studio.
-- [Using Cairo with SDL](../SDL/): A basic guide for developing cairo applications using SDL.
-- [Using Cairo with OpenGL](../OpenGL/): How to use cairo from within OpenGL programs.
 - [The Cairo graphics tutorial](http://zetcode.com/tutorials/cairographicstutorial/): A comprehensive tutorial in C programming language and GTK+ library.
 - [Monochrome icon](http://wiki.xfce.org/howto/monochrome-icon): A tutorial that explains how to include a monochrome icon inside a GTK+ application.
 
