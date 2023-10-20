@@ -61,7 +61,7 @@
   --cairo2: #e7d1be; /* bg */
   --cairo3: #6288b7; /* term bg */
   --cairo4: #f8e2a9; /* term fg */
-  --primary-color: var(--cairo3); /* Set your project color */
+  --primary-color: var(--blue5); /* Set your project color */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -503,6 +503,6 @@ code.highlighter-rouge {
   font-size: 90%;
   padding: .4rem 1rem;
   border-radius: var(--rounded-corner);
-  background-color: rgba(0,0,0,0.05);
-  color: var(--dark5);
+  background-color: var(--cairo3);
+  color: var(--cairo1);
 }
