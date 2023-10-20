@@ -288,6 +288,3 @@ which will replay the trace several times against multiple backends and report t
 A compilation of "interesting" traces can be found in the [cairo-traces repository](http://cgit.freedesktop.org/cairo-traces). This collection includes traces of various uses of common applications such as firefox, gnome-terminal, swfdec (including viewing youtube), and poppler.
 
 By checking this repository out to perf/cairo-traces in the cairo source directory, these traces will be automatically run by "cairo-perf-trace" (with no arguments) as well as by "make perf". Note that some of these traces are very long and intended to stress the system, and so we keep a representative selection of shorter traces which can be run using "./cairo-perf-trace -i3 cairo-traces/benchmark".
-
-
-Written with love using [Apostrophe](https://flathub.org/apps/details/org.gnome.gitlab.somas.Apostrophe).

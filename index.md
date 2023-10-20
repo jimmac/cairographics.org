@@ -19,21 +19,17 @@ Cairo is implemented as a library written in the C programming language, but [bi
 
 Cairo is [free software](http://www.fsf.org/licensing/essays/free-sw.html) and is available to be redistributed and/or modified under the terms of either the GNU Lesser General Public License (LGPL) version 2.1 or the Mozilla Public License (MPL) version 1.1 at your option.
 
-## News
-
-FIXME: Point to [news](news/).
-
-
+- [News](news/). Release notes & other news.
+- [Frequently asked questions](faq/): Save yourself some time by reading this early.
+- [Tutorial](tutorial/): A one-of-a-kind introduction to the cairo concepts and models.
+ 
 ## Cairo Documentation and Off-site Material
 
 Documentation for Cairo is an area that could always be greatly improved. Contributions are very welcome!
 
-### Primary Sources
 
-Here are the most useful starting points:
+<!--
 
-- [Frequently asked questions](faq/): Save yourself some time by reading this early.
-- [Tutorial](../tutorial/): A one-of-a-kind introduction to the cairo concepts and models.
 - [API reference manual](/manual/): Function-by-function reference.
 - [Cookbook](../cookbook/): Simple recipes for drawing.
 - [Samples](../samples/): Some samples of how to use Cairo.
@@ -47,7 +43,7 @@ Other information that might be of interest:
 - [Missing](../missing/): Page listing features missing to allow SVG/Flash rendering using cairo without fallbacks.
 - [Bibliography](../bibliography/): Where the good ideas came from.
 - [Building](../building/): Various recipes for compiling Cairo sources on different platforms and with different goals.
-
+-->
 
 ## Off-site Material
 
