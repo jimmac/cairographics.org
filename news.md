@@ -7,6 +7,10 @@ layout: default
 </picture>
 
 {% assign sorted_news = site.news | sort: 'date' | reverse %}
+<ul class="news">
 {% for item in sorted_news %}
-  - <span class="date">{{ item.date | date: "%Y-%m-%d" }}</span> -- <span class="title">[{{ item.title }}]({{ item.url }})</span>
-{% endfor %}{:.news}
+  <li><span class="title"><a href="{{ item.url }}">{{ item.title }}</a></span>
+    <span class="date">{{ item.date | date: "%Y-%m-%d" }}</span>
+  </li>
+{%endfor%}
+</ul>
