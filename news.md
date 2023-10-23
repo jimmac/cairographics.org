@@ -9,8 +9,8 @@ layout: default
 {% assign sorted_news = site.news | sort: 'date' | reverse %}
 <ul class="news">
 {% for item in sorted_news %}
-  <li><span class="title"><a href="{{ item.url }}">{{ item.title }}</a></span>
-    <span class="date">{{ item.date | date: "%Y-%m-%d" }}</span>
+  <li><a href="{{ item.url }}"><span class="title">{{ item.title }}</span>
+    <span class="date">{{ item.date | date: "%Y-%m-%d" }}</span></a>
   </li>
 {%endfor%}
 </ul>

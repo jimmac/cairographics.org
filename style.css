@@ -57,11 +57,13 @@
   --dark4: rgb(36,31,49);
   --dark5: rgb(0,0,0);
   
+  --br: 12px;
   --cairo1: #000; /* fg */
   --cairo2: #e7d1be; /* bg */
   --cairo3: #6288b7; /* term bg */
   --cairo4: #f8e2a9; /* term fg */
   --primary-color: var(--blue5); /* Set your project color */
+  --hcolor: rgba(255,255,255,0.2);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -71,6 +73,7 @@
   --cairo3: #0d1329;
   --cairo4: #fefefe;
   --primary-color: #8c7bd6;
+  --hcolor: rgba(255,255,255,0.02);
   }
 }
 
@@ -173,15 +176,22 @@ ul.news {
   display: block;
   list-style: none;
   margin: 0;
-  padding: 0 2rem;
-  gap: 1rem;
-  row-gap: 1rem;
+  padding: 0;
 }
-  ul.news li {
+  ul.news li>a {
+    gap: 1rem;
+    row-gap: 1rem;
     display: flex;
     flex-direction: row;
-    padding: .5rem 0;
+    padding: 1rem 3rem;
+    border-radius: var(--br);
+    transition: all 0.35s cubic-bezier(0.17, 0.89, 0.32, 1.28);
   }
+  ul.news li>a:hover {
+    background-color: var(--hcolor);
+    box-shadow: 0 0 0 8px var(--hcolor);
+  }
+  
   ul.news .date { 
     opacity:.4;
     font-feature-settings: 'tnum';
