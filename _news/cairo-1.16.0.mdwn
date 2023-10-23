@@ -1,5 +1,6 @@
 ---
 date: 2018-10-19
+layout: news
 title: cairo release 1.16.0 is now available
 ---
 A new cairo release 1.16.0 is now available from:

@@ -1,5 +1,6 @@
 ---
 title: cairo 1.8.10 release available
+layout: news
 date: 2010-02-19
 ---
 

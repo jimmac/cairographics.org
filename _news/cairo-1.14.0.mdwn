@@ -1,5 +1,6 @@
 ---
 title: cairo 1.14.0 snapshot available
+layout: news
 date: 2014-10-13
 ---
 

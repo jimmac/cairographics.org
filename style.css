@@ -203,6 +203,12 @@ ul.news {
   }
   ul.news .title { text-transform: capitalize; flex-grow: 1; }
 
+code {
+  font-family: monospace;
+  white-space: pre;
+  font-size: 70%;
+}
+
 /* Layout */
 .container {
   width: 80%;

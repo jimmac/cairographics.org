@@ -1,5 +1,6 @@
 ---
 title: cairo 1.4.14 release available
+layout: news
 date: 2008-01-14
 ---
 

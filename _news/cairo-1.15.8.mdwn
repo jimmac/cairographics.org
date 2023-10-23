@@ -1,5 +1,6 @@
 ---
 title: cairo 1.15.8 development snapshot available
+layout: news
 date: 2017-08-29
 ---
 

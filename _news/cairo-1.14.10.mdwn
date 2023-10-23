@@ -1,5 +1,6 @@
 ---
 title: cairo 1.14.10 release available
+layout: news
 date: 2017-06-15
 ---
 

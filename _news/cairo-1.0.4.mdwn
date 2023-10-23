@@ -1,5 +1,6 @@
 ---
 title: cairo 1.0.4 released
+layout: news
 date: 2006-03-15
 ---
 

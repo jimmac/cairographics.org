@@ -1,5 +1,6 @@
 ---
 title: cairo 1.8.2 release available
+layout: news
 date: 2008-10-30
 ---
 

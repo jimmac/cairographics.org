@@ -1,5 +1,6 @@
 ---
 title: cairo 1.14.6 release available
+layout: news
 date: 2015-12-09
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: cairo 1.5.12 snapshot available
+layout: news
 date: 2008-02-28
 ---
 
