@@ -1,4 +1,8 @@
-	A new cairo release 1.16.0 is now available from:
+---
+date: 2018-10-19
+title: cairo release 1.16.0 is now available
+---
+A new cairo release 1.16.0 is now available from:
 	
 	        https://cairographics.org/releases/cairo-1.16.0.tar.xz
 	

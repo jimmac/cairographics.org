@@ -1,4 +1,8 @@
-	A new cairo snapshot 1.17.2 is now available from:
+---
+date: 2019-01-31
+title: cairo snapshot 1.17.2 is now available 
+---
+A new cairo snapshot 1.17.2 is now available from:
 	
 		https://cairographics.org/snapshots/cairo-1.17.2.tar.xz
 	
