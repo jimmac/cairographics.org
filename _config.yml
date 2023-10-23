@@ -18,7 +18,7 @@ markdown: kramdown
 collections:
   news:
     output: true
-    permalink: "/cairographics.org/:collection/:title/"
-    layout: news
+    #permalink: "/cairographics.org/:collection/:title/"
+    #layout: news
     sort_by: date
     reverse: true
