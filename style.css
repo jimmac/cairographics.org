@@ -178,10 +178,8 @@ ul.news {
   margin: 0;
   padding: 0;
 }
-  ul.news li { padding: 0 0 1rem 0; }
+  ul.news li { padding: 0 0 1rem 0; text-align: center; }
   ul.news li>a {
-    gap: 1rem;
-    row-gap: 1rem;
     display: flex;
     flex-direction: column;
     padding: .5rem 1rem;
@@ -205,11 +203,12 @@ ul.news {
   ul.news .title { text-transform: capitalize; flex-grow: 1; }
 
 @media screen and (min-width: 650px) {
-  ul.news li { padding: 0; }
+  ul.news li { padding: 0; text-align: left; }
   ul.news li>a {
-    display: flex;
     flex-direction: row;
     padding: 1rem 3rem;
+    gap: 1rem;
+    row-gap: 1rem;
   }
 }
 
