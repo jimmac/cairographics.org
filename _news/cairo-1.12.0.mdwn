@@ -4,210 +4,210 @@ layout: news
 date: 2012-03-23
 ---
 
-	From: Chris Wilson <chris@chris-wilson.co.uk>
-	Date: Fri, 23 Mar 2012 20:34:00 +0000
-	To: cairo-announce@cairographics.org
+From: Chris Wilson <chris@chris-wilson.co.uk>
+Date: Fri, 23 Mar 2012 20:34:00 +0000
+To: cairo-announce@cairographics.org
 
-	A new cairo release 1.12.0 is now available from:
+A new cairo release 1.12.0 is now available from:
 
-		http://cairographics.org/releases/cairo-1.12.0.tar.gz
+http://cairographics.org/releases/cairo-1.12.0.tar.gz
 
-	    which can be verified with:
+    which can be verified with:
 
-		http://cairographics.org/releases/cairo-1.12.0.tar.gz.sha1
-		63e0d1372a7919956b6d959709dfdf35d3cecc02  cairo-1.12.0.tar.gz
+http://cairographics.org/releases/cairo-1.12.0.tar.gz.sha1
+63e0d1372a7919956b6d959709dfdf35d3cecc02  cairo-1.12.0.tar.gz
 
-		http://cairographics.org/releases/cairo-1.12.0.tar.gz.sha1.asc
-		(signed by Chris Wilson)
+http://cairographics.org/releases/cairo-1.12.0.tar.gz.sha1.asc
+(signed by Chris Wilson)
 
-	  Additionally, a git clone of the source tree:
+  Additionally, a git clone of the source tree:
 
-		git clone git://git.cairographics.org/git/cairo
+git clone git://git.cairographics.org/git/cairo
 
-	    will include a signed 1.12.0 tag which points to a commit named:
-		a0bf6d25b5b68c897d63580d1ca9ee182f04cce1
+    will include a signed 1.12.0 tag which points to a commit named:
+a0bf6d25b5b68c897d63580d1ca9ee182f04cce1
 
-	    which can be verified with:
-		git verify-tag 1.12.0
+    which can be verified with:
+git verify-tag 1.12.0
 
-	    and can be checked out with a command such as:
-		git checkout -b build 1.12.0
+    and can be checked out with a command such as:
+git checkout -b build 1.12.0
 
-	Release 1.12.0 (2012-03-23 Chris Wilson <chris@chris-wilson.co.uk>)
-	===================================================================
-	It's taken over 18 months, but the wait is finally over. A new cairo release!
-	We are pleased to annouce a new stable release of Cairo that brings many
-	new features and performance improvements, all whilst maintaining
-	compatibility with cairo-1.0 and all releases since. We recommend anyone
-	using a previous release of Cairo to upgrade to 1.12.0.
+Release 1.12.0 (2012-03-23 Chris Wilson <chris@chris-wilson.co.uk>)
+===================================================================
+It's taken over 18 months, but the wait is finally over. A new cairo release!
+We are pleased to annouce a new stable release of Cairo that brings many
+new features and performance improvements, all whilst maintaining
+compatibility with cairo-1.0 and all releases since. We recommend anyone
+using a previous release of Cairo to upgrade to 1.12.0.
 
-	The major feature of this release is the introduction of a new procedural
-	pattern; the mesh gradient. This, albeit complex, gradient is constructed
-	from a set of cubic Bezier patches and is a superset of all other gradient
-	surfaces which allows for the construction of incredibily detailed patterns.
-	In PDF parlance, the mesh gradient corresponds with type 7 patterns. Many
-	thanks to Andrea Canciani for bringing this to Cairo, and for his work on
-	making gradient handling robust.
+The major feature of this release is the introduction of a new procedural
+pattern; the mesh gradient. This, albeit complex, gradient is constructed
+from a set of cubic Bezier patches and is a superset of all other gradient
+surfaces which allows for the construction of incredibily detailed patterns.
+In PDF parlance, the mesh gradient corresponds with type 7 patterns. Many
+thanks to Andrea Canciani for bringing this to Cairo, and for his work on
+making gradient handling robust.
 
-	Not content with just adding another procedural pattern, Cairo 1.12 also
-	adds new API to create a callback pattern,
-	cairo_pattern_create_raster_source, that allows the application to
-	provide the pixel data for the region of interest at the time of
-	rendering. This can be used for instance, by an application to decode
-	compressed images on demand and to keep a cache of those decompressed
-	images, independently of Cairo. When combined with the recording
-	surface, it should form a useful basis for a deferred renderer.
+Not content with just adding another procedural pattern, Cairo 1.12 also
+adds new API to create a callback pattern,
+cairo_pattern_create_raster_source, that allows the application to
+provide the pixel data for the region of interest at the time of
+rendering. This can be used for instance, by an application to decode
+compressed images on demand and to keep a cache of those decompressed
+images, independently of Cairo. When combined with the recording
+surface, it should form a useful basis for a deferred renderer.
 
-	With the release of cairo-1.12, we also introduce a new supported
-	backend for interoperating with X using XCB. Uli Schlachter, also
-	maintainer of awesome and contributor to libxcb, has volunteered to
-	maintain cairo-xcb for us. Thanks Uli!
+With the release of cairo-1.12, we also introduce a new supported
+backend for interoperating with X using XCB. Uli Schlachter, also
+maintainer of awesome and contributor to libxcb, has volunteered to
+maintain cairo-xcb for us. Thanks Uli!
 
-	For cairo-1.12, we have also added some common API to address any
-	surface as an image and so allow direct modification of the raster data.
-	Previously, only the Quartz and Win32 backends supported a very narrow
-	interface to allow for efficient pixel upload. Now with
-	cairo_surface_create_similar_image, cairo_surface_map_to_image, and
-	cairo_surface_unmap_image, Cairo exports a consistent method for
-	treating those surfaces as an image and so allow modification inplace.
-	These are the same routines used internally, and should support
-	efficient transfer or direct mapping of the target surfaces as
-	applicable.
+For cairo-1.12, we have also added some common API to address any
+surface as an image and so allow direct modification of the raster data.
+Previously, only the Quartz and Win32 backends supported a very narrow
+interface to allow for efficient pixel upload. Now with
+cairo_surface_create_similar_image, cairo_surface_map_to_image, and
+cairo_surface_unmap_image, Cairo exports a consistent method for
+treating those surfaces as an image and so allow modification inplace.
+These are the same routines used internally, and should support
+efficient transfer or direct mapping of the target surfaces as
+applicable.
 
-	Another focus over the past year has been to address many performance
-	issues, without sacrificing the composition model. To accomplish the
-	goal, once again the rasterisation pipeline was overhauled and made
-	explicit, giving the backends the freedom to implement their own
-	specific pipeline whilst also providing a library of common routines
-	from which to build the pipeline. For instance, this allows the image
-	backend and the gl backend to composite scan line primitives inplace,
-	and to then implement custom fallbacks to catch the corner cases that do
-	not map onto their fastest paths. Similarly, this allows for the Xlib
-	backend to implement trapezoidation without compromising the other
-	backends, yet still allow for the pipeline to be used elsewhere for
-	testing and fallbacks. Clipping was once again overhauled, so that the
-	common cases for the raster pipelines could be captured and processed
-	with fast paths with the emphasis on performing geometric clipping to
-	reduce the frequency of using multi-pass clipmasks. Stroking was made
-	faster, both by providing specialised fast-paths for simple, yet frequent,
-	cases (such as stroking around a rectangle) and by reducing the number
-	of edges generated by the general stroker.
+Another focus over the past year has been to address many performance
+issues, without sacrificing the composition model. To accomplish the
+goal, once again the rasterisation pipeline was overhauled and made
+explicit, giving the backends the freedom to implement their own
+specific pipeline whilst also providing a library of common routines
+from which to build the pipeline. For instance, this allows the image
+backend and the gl backend to composite scan line primitives inplace,
+and to then implement custom fallbacks to catch the corner cases that do
+not map onto their fastest paths. Similarly, this allows for the Xlib
+backend to implement trapezoidation without compromising the other
+backends, yet still allow for the pipeline to be used elsewhere for
+testing and fallbacks. Clipping was once again overhauled, so that the
+common cases for the raster pipelines could be captured and processed
+with fast paths with the emphasis on performing geometric clipping to
+reduce the frequency of using multi-pass clipmasks. Stroking was made
+faster, both by providing specialised fast-paths for simple, yet frequent,
+cases (such as stroking around a rectangle) and by reducing the number
+of edges generated by the general stroker.
 
-	As part of the focus on performance, Cairo 1.12 introduces some
-	antialias hints (NONE,FAST, GOOD, BEST) that are interpolated by the
-	raserisers to fine tune their performance versus quality. Cairo 1.12
-	also introduces a new observation architecture,
-	cairo_surface_observer_t, which can be used to analyse the amount of
-	time consumed by drawing commands and help identify inefficiencies in
-	both Cairo and the application.
+As part of the focus on performance, Cairo 1.12 introduces some
+antialias hints (NONE,FAST, GOOD, BEST) that are interpolated by the
+raserisers to fine tune their performance versus quality. Cairo 1.12
+also introduces a new observation architecture,
+cairo_surface_observer_t, which can be used to analyse the amount of
+time consumed by drawing commands and help identify inefficiencies in
+both Cairo and the application.
 
-	Last, but by no means least, the OpenGL backend has seen significant
-	work including the port to GLESv2 and the exploitation of advanced
-	hardware features. Interesting times.
+Last, but by no means least, the OpenGL backend has seen significant
+work including the port to GLESv2 and the exploitation of advanced
+hardware features. Interesting times.
 
-	As always, I would like to thank everyone who contributed to Cairo,
-	not only through writing code, but also submitting documentation, bug
-	reports, suggestions and generally having fun with Cairo! In particular
-	though this release could not have happened without the efforts of
-	Adrian Johnson, Alexandros Frantiz, Andrea Canicani, Martin Robinson,
-	Nis Martensen, and Uli Schlachter. Thanks.
-	-Chris
+As always, I would like to thank everyone who contributed to Cairo,
+not only through writing code, but also submitting documentation, bug
+reports, suggestions and generally having fun with Cairo! In particular
+though this release could not have happened without the efforts of
+Adrian Johnson, Alexandros Frantiz, Andrea Canicani, Martin Robinson,
+Nis Martensen, and Uli Schlachter. Thanks.
+-Chris
 
-	What is cairo
-	=============
-	Cairo is a 2D graphics library with support for multiple output
-	devices. Currently supported output targets include the X Window
-	System, quartz, win32, and image buffers, as well as PDF, PostScript,
-	and SVG file output. Experimental backends include OpenGL, XCB, BeOS,
-	OS/2, and DirectFB.
+What is cairo
+=============
+Cairo is a 2D graphics library with support for multiple output
+devices. Currently supported output targets include the X Window
+System, quartz, win32, and image buffers, as well as PDF, PostScript,
+and SVG file output. Experimental backends include OpenGL, XCB, BeOS,
+OS/2, and DirectFB.
 
-	Cairo is designed to produce consistent output on all output media
-	while taking advantage of display hardware acceleration when available
-	(for example, through the X Render Extension).
+Cairo is designed to produce consistent output on all output media
+while taking advantage of display hardware acceleration when available
+(for example, through the X Render Extension).
 
-	The cairo API provides operations similar to the drawing operators of
-	PostScript and PDF. Operations in cairo include stroking and filling
-	cubic Bézier splines, transforming and compositing translucent images,
-	and antialiased text rendering. All drawing operations can be
-	transformed by any affine transformation (scale, rotation, shear,
-	etc.).
+The cairo API provides operations similar to the drawing operators of
+PostScript and PDF. Operations in cairo include stroking and filling
+cubic Bézier splines, transforming and compositing translucent images,
+and antialiased text rendering. All drawing operations can be
+transformed by any affine transformation (scale, rotation, shear,
+etc.).
 
-	Cairo has been designed to let you draw anything you want in a modern
-	2D graphical user interface.  At the same time, the cairo API has been
-	designed to be as fun and easy to learn as possible. If you're not
-	having fun while programming with cairo, then we have failed
-	somewhere---let us know and we'll try to fix it next time around.
+Cairo has been designed to let you draw anything you want in a modern
+2D graphical user interface.  At the same time, the cairo API has been
+designed to be as fun and easy to learn as possible. If you're not
+having fun while programming with cairo, then we have failed
+somewhere---let us know and we'll try to fix it next time around.
 
-	Cairo is free software and is available to be redistributed and/or
-	modified under the terms of either the GNU Lesser General Public
-	License (LGPL) version 2.1 or the Mozilla Public License (MPL) version
-	1.1.
+Cairo is free software and is available to be redistributed and/or
+modified under the terms of either the GNU Lesser General Public
+License (LGPL) version 2.1 or the Mozilla Public License (MPL) version
+1.1.
 
-	Where to get more information about cairo
-	=========================================
-	The primary source of information about cairo is:
+Where to get more information about cairo
+=========================================
+The primary source of information about cairo is:
 
-		http://cairographics.org/
+http://cairographics.org/
 
-	The latest versions of cairo can always be found at:
+The latest versions of cairo can always be found at:
 
-		http://cairographics.org/download
+http://cairographics.org/download
 
-	Documentation on using cairo and frequently-asked questions:
+Documentation on using cairo and frequently-asked questions:
 
-		http://cairographics.org/documentation
-		http://cairographics.org/FAQ
+http://cairographics.org/documentation
+http://cairographics.org/FAQ
 
-	Mailing lists for contacting cairo users and developers:
+Mailing lists for contacting cairo users and developers:
 
-		http://cairographics.org/lists
+http://cairographics.org/lists
 
-	Roadmap and unscheduled things to do, (please feel free to help out):
+Roadmap and unscheduled things to do, (please feel free to help out):
 
-		http://cairographics.org/roadmap
-		http://cairographics.org/todo
+http://cairographics.org/roadmap
+http://cairographics.org/todo
 
-	List of changes since 1.11.4
-	-----------------------------
+List of changes since 1.11.4
+-----------------------------
 
-	Chris Wilson (21):
-	      version: Post-release version bump to 1.11.5
-	      skia: Setup opacity for cairo_paint_with_alpha()
-	      image: Support SRC compositing with in the inline span-compositor
-	      clip: Intialise polygon fill-rule prior to use
-	      spans-compositor: Only destroy the clip if we made the copy
-	      trace: Add breadcrumb for cairo_image_surface_get_data()
-	      gl: Manually invert images without MESA_pack_invert extension
-	      stroke: Adapt rectilinear stroker to handle separable non-unity scaling
-	      win32: Check for damage before blitting
-	      compositor: Add tracing for damage
-	      damage: Fix memcpy size
-	      win32: Fix damage flushing
-	      win32: Hook up glyph creation again
-	      win32: Remove obsolete font rendering routines
-	      directfb: Tweak, tweak, tweak.
-	      image: Fix leak of white solid color for masked composition of CLEAR
-	      test: Tweak the results summary
-	      win32: Copy back the fallback damage to the right location
-	      win32: mark-dirty cannot assume the fallback has been discarded
-	      cairo: Add some missing doc entries for cairo_raster_source_pattern_t
-	      version: bump for 1.12.0 release!
+Chris Wilson (21):
+      version: Post-release version bump to 1.11.5
+      skia: Setup opacity for cairo_paint_with_alpha()
+      image: Support SRC compositing with in the inline span-compositor
+      clip: Intialise polygon fill-rule prior to use
+      spans-compositor: Only destroy the clip if we made the copy
+      trace: Add breadcrumb for cairo_image_surface_get_data()
+      gl: Manually invert images without MESA_pack_invert extension
+      stroke: Adapt rectilinear stroker to handle separable non-unity scaling
+      win32: Check for damage before blitting
+      compositor: Add tracing for damage
+      damage: Fix memcpy size
+      win32: Fix damage flushing
+      win32: Hook up glyph creation again
+      win32: Remove obsolete font rendering routines
+      directfb: Tweak, tweak, tweak.
+      image: Fix leak of white solid color for masked composition of CLEAR
+      test: Tweak the results summary
+      win32: Copy back the fallback damage to the right location
+      win32: mark-dirty cannot assume the fallback has been discarded
+      cairo: Add some missing doc entries for cairo_raster_source_pattern_t
+      version: bump for 1.12.0 release!
 
-	Chuanbo Weng (1):
-	      subsurface: Avoid potential crash when subsurface's size is less than 0
+Chuanbo Weng (1):
+      subsurface: Avoid potential crash when subsurface's size is less than 0
 
-	Dongyeon Kim (1):
-	      trace: Wrap GL surfaces
+Dongyeon Kim (1):
+      trace: Wrap GL surfaces
 
-	Henry (Yu) Song (2):
-	      scaled-font: Ignore empty glyphs when checking for potential overlap
-	      boilerplate/gl: set width and height to be at least 1
+Henry (Yu) Song (2):
+      scaled-font: Ignore empty glyphs when checking for potential overlap
+      boilerplate/gl: set width and height to be at least 1
 
-	Henry Song (1):
-	      gl: use direct mode for uploading gradient texture
+Henry Song (1):
+      gl: use direct mode for uploading gradient texture
 
-	Igor Oliveira (1):
-	      gl: GL_UNPACK_ROW_LENGTH does not accept negative values
+Igor Oliveira (1):
+      gl: GL_UNPACK_ROW_LENGTH does not accept negative values
 
-	Kouhei Sutou (1):
-	      skia: add a missing header into archive
+Kouhei Sutou (1):
+      skia: add a missing header into archive

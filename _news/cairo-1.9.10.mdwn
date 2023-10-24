@@ -4,34 +4,34 @@ layout: news
 date: 2010-06-26
 ---
 
-	Date: Sat, 26 Jun 2010 15:06:33 +0100
-	To: cairo-announce@cairographics.org
-	Subject: cairo snapshot 1.9.10 now available
+Date: Sat, 26 Jun 2010 15:06:33 +0100
+To: cairo-announce@cairographics.org
+Subject: cairo snapshot 1.9.10 now available
 
         A new cairo snapshot 1.9.10 is now available from:
 
-	        http://cairographics.org/snapshots/cairo-1.9.10.tar.gz
+        http://cairographics.org/snapshots/cairo-1.9.10.tar.gz
 
             which can be verified with:
 
-	        http://cairographics.org/snapshots/cairo-1.9.10.tar.gz.sha1
-	        17062d7562d763234551e9e07be7c4c51686306f  cairo-1.9.10.tar.gz
+        http://cairographics.org/snapshots/cairo-1.9.10.tar.gz.sha1
+        17062d7562d763234551e9e07be7c4c51686306f  cairo-1.9.10.tar.gz
 
-	        http://cairographics.org/snapshots/cairo-1.9.10.tar.gz.sha1.asc
-	        (signed by Chris Wilson)
+        http://cairographics.org/snapshots/cairo-1.9.10.tar.gz.sha1.asc
+        (signed by Chris Wilson)
 
           Additionally, a git clone of the source tree:
 
-	        git clone git://git.cairographics.org/git/cairo
+        git clone git://git.cairographics.org/git/cairo
 
             will include a signed 1.9.10 tag which points to a commit named:
-	        0f1ff0daab7259ec16076f788760da4f35cb0cdc
+        0f1ff0daab7259ec16076f788760da4f35cb0cdc
 
             which can be verified with:
-	        git verify-tag 1.9.10
+        git verify-tag 1.9.10
 
             and can be checked out with a command such as:
-	        git checkout -b build 1.9.10
+        git checkout -b build 1.9.10
 
 
         The first "quick" snapshot in the run up to the stable release.  The
@@ -55,8 +55,8 @@ date: 2010-06-26
         remains private for the time being, whilst the proposed public API is
         finalized.
 
-	-Chris
+-Chris
 
-	API additions
-	-------------
+API additions
+-------------
           None
