@@ -3,6 +3,7 @@ title: cairo 1.4.4 release available
 layout: news
 date: 2007-04-13
 ---
+```
 
 From: Carl Worth <cworth@cworth.org>
 Date: 13 Apr 2007
@@ -126,3 +127,4 @@ Quartz/ATSUI:
    (Robert O'Callahan)
         https://bugs.freedesktop.org/show_bug.cgi?id=10531
 
+```

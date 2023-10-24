@@ -3,6 +3,7 @@ title: cairo 1.3.10 snapshot available
 layout: news
 date: 2006-12-23
 ---
+```
 
 From: Carl Worth <cworth@cworth.org>
 Date: 23 Dec 2006
@@ -91,3 +92,4 @@ this round, fix a few bad, lingering bugs, and then finish off a nice,
 stable 1.4 release before the end of January).
 
 -Carl
+```

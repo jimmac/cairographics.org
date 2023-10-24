@@ -3,6 +3,7 @@ title: cairo 1.9.10 snapshot available
 layout: news
 date: 2010-06-26
 ---
+```
 
 Date: Sat, 26 Jun 2010 15:06:33 +0100
 To: cairo-announce@cairographics.org
@@ -60,3 +61,4 @@ Subject: cairo snapshot 1.9.10 now available
 API additions
 -------------
           None
+```

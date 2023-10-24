@@ -3,6 +3,7 @@ title: cairo 1.9.6 snapshot available
 layout: news
 date: 2010-02-19
 ---
+```
 
 From: Carl Worth <cworth@cworth.org>
 Date: Fri, 19 Feb 2010 17:56:14 -0800
@@ -192,3 +193,4 @@ cairo-pdf fixes:
 cairo-ps fixes:
 
   Fix printing of rotated user fonts.
+```

@@ -3,6 +3,7 @@ title: cairo 1.10.2 release available
 layout: news
 date: 2010-12-25
 ---
+```
 
 From: Chris Wilson <chris@chris-wilson.co.uk>
 To: cairo-announce@cairographics.org
@@ -171,3 +172,4 @@ Tim Janik (1):
 
 Tomáš Chvátal (1):
       Fix posix calls in configure.ac test code.
+```

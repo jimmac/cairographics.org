@@ -3,6 +3,7 @@ title: cairo 1.6.2 release available
 layout: news
 date: 2008-04-11
 ---
+```
 
 From: Carl Worth <cworth@cworth.org>
 Date: Fri, 11 Apr 2008 10:24:54 -0700
@@ -91,3 +92,4 @@ Carl Worth (3):
 
 Chris Wilson (1):
       [xlib] Add locking around GC cache.
+```

@@ -3,6 +3,7 @@ title: cairo 1.12.4 release available
 layout: news
 date: 2012-10-05
 ---
+```
 
 From: Chris Wilson <chris@chris-wilson.co.uk>
 Date: Fri, 05 Oct 2012 17:31:00 +1000
@@ -354,3 +355,4 @@ Weng Xuetian (1):
 Yuanhan Liu (2):
       gl: use _cairo_gl_operand_copy to fix unblanced reference count
       configure.ac: remove annoying change of INSTALL file
+```

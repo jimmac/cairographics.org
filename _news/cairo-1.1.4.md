@@ -3,6 +3,7 @@ title: cairo 1.1.4 snapshot available
 layout: news
 date: 2006-05-03
 ---
+```
 
 From: Carl Worth <cworth@cworth.org>
 Date: 3 May 2006
@@ -106,3 +107,4 @@ Missing out-of-memory check at gfx/cairo/cairo/src/cairo-atsui-font.c:185
 https://bugzilla.mozilla.org/show_bug.cgi?id=336129
 
 A couple of memory leaks.
+```

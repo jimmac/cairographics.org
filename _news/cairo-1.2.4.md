@@ -3,6 +3,7 @@ title: cairo 1.2.4 release available
 layout: news
 date: 2006-08-18
 ---
+```
 
 Subject: cairo release 1.2.4 now available
 From: Carl Worth <cworth@cworth.org>
@@ -106,3 +107,4 @@ Code cleanups
 -------------
 Many useful warnings cleanups from sparse, valgrind, and careful eyes
 (Kjartan Maraas, Pavel Roskin)
+```

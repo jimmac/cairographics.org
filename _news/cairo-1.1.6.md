@@ -3,6 +3,7 @@ title: cairo 1.1.6 snapshot available
 layout: news
 date: 2006-05-04
 ---
+```
 
 From: Carl Worth <cworth@cworth.org>
 Date: 4 May 2006
@@ -187,3 +188,4 @@ Update backend so that it now compiles with the recent XCB 0.9 release.
 Bug fixes and memory leak cleanup
 ---------------------------------
 Various little things, nothing too significant though.
+```

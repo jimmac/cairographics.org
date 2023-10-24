@@ -3,6 +3,7 @@ title: cairo 1.14.2 release available
 layout: news
 date: 2015-03-10
 ---
+```
 
  Date:  Tue Mar 10 19:41:20 PDT 2015
  From: Bryce Harrington <bryce@osg.samsung.com>
@@ -254,3 +255,4 @@ Open Source Group             -  Samsung Research America
 
 
 
+```

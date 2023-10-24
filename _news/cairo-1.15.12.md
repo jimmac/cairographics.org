@@ -3,6 +3,7 @@ title: cairo 1.15.12 release available
 layout: news
 date: 2018-04-11
 ---
+```
 
 Subject: cairo snapshot 1.15.12 now available
 
@@ -228,3 +229,4 @@ Unknown (1):
 
 suzuki toshiya (1):
       csi-trace does not show help
+```

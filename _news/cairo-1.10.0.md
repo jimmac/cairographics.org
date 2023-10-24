@@ -3,6 +3,7 @@ title: cairo 1.10.0 release available
 layout: news
 date: 2010-09-06
 ---
+```
 
 From: Chris Wilson <chris@chris-wilson.co.uk>
 Date: Mon, 06 Sep 2010 18:56:33 +0100
@@ -93,3 +94,4 @@ Esfahbod, Benjamin Otte, Carl Worth, Carlos Garcia Campos, Chris Wilson,
 Eric Anholt, Jeff Muizelaar, Karl Tomlinson, M Joonas Pihlaja, Søren
 Sandmann Pedersen and many others that have contributed over the last
 couple of years to cairo. Thank you all!
+```

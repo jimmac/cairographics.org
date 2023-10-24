@@ -3,6 +3,7 @@ title: cairo 1.12.16 snapshot available
 layout: news
 date: 2013-08-26
 ---
+```
 
 From: Chris Wilson <chris@chris-wilson.co.uk>
 To: cairo-announce@cairographics.org
@@ -244,3 +245,4 @@ egag (1):
 
 --
 Chris Wilson, Intel Open Source Technology Centre
+```

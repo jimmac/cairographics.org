@@ -3,6 +3,7 @@ title: cairo 1.4.2 release available
 layout: news
 date: 2007-03-19
 ---
+```
 
 From: Carl Worth <cworth@cworth.org>
 Date: 19 Mar 2007
@@ -167,3 +168,4 @@ Optimization
   often. (Behdad Esfahbod). And look for more from Mathias Hasselmann
   soon.
 
+```

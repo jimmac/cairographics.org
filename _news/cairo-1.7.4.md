@@ -3,6 +3,7 @@ title: cairo 1.7.4 snapshot available
 layout: news
 date: 2008-08-11
 ---
+```
 
 From: Behdad Esfahbod <behdad@behdad.org>
 Date: Mon, 11 Aug 2008 15:25:44 -0400 (12:25 PDT)
@@ -42,3 +43,4 @@ snapshot of the cairo graphics library.  This is a followup release to the
 1.7.2 snapshot to ship a tarball that can actually be built.  The only
 change since 1.7.4 is including the missing header file
 cairo-user-font-private.h in the distribution.
+```

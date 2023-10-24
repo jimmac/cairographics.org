@@ -3,6 +3,7 @@ title: cairo 1.5.10 snapshot available
 layout: news
 date: 2008-02-20
 ---
+```
 
 From: Carl Worth <cworth@cworth.org>
 Date: Wed, 20 Feb 2008 10:22:17 -0800
@@ -147,3 +148,4 @@ all-vector operations if there are no underlying objects).
 cairo-atsui
 -----------
 Eliminate infinite loop when attempting to render an empty string.
+```

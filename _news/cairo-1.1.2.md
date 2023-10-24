@@ -3,6 +3,7 @@ title: cairo 1.1.2 snapshot available
 layout: news
 date: 2006-04-25
 ---
+```
 
 From: Carl Worth <cworth@cworth.org>
 Date: 25 Apr 2006
@@ -194,3 +195,4 @@ be better, and never worse compared to 1.0. Please let us know if your
 testing shows otherwise.
 
 -Carl
+```

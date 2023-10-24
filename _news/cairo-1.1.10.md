@@ -3,6 +3,7 @@ title: cairo 1.1.10 snapshot available
 layout: news
 date: 2006-06-16
 ---
+```
 
 From: Carl Worth <cworth@cworth.org>
 Date: 16 Jun 2006
@@ -51,3 +52,4 @@ eliminate the dependency on libxml2. With this in place, cairo 1.2
 will not depend on any libraries that cairo 1.0 did not.
 
 As usual, there are also a few fixes for minor bugs.
+```

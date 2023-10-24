@@ -3,6 +3,7 @@ title: new cairo snapshot 1.15.14 is available
 date: 2018-09-19
 layout: news
 ---
+```
 A new cairo snapshot 1.15.14 is now available from:
 
 http://cairographics.org/snapshots/cairo-1.15.14.tar.xz
@@ -137,3 +138,4 @@ Vasily Galkin (3):
       win32: CAIRO_WIN32_SURFACE_CAN_RGB_BRUSH and other argb32 flags set+check
       win32: Allow GDI operations for argb32 surfaces (allowed by surface flags)
 
+```

@@ -3,6 +3,7 @@ title: cairo 1.4.6 release available
 layout: news
 date: 2007-05-01
 ---
+```
 
 From: Carl Worth <cworth@cworth.org>
 Date: 1 May 2007
@@ -152,3 +153,4 @@ while some system variables were changed. For example, this is now
 being used to allow cairo-perf to measure the performance of various
 different acceleration architectures and configuration options of the
 X.org X server.
+```

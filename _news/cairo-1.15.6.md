@@ -3,6 +3,7 @@ title: cairo 1.15.6 release available
 layout: news
 date: 2017-06-13
 ---
+```
 
 Subject: cairo snapshot 1.15.6 now available
 
@@ -173,3 +174,4 @@ Uli Schlachter (4):
       Revert "stroker: Check for scaling overflow in computing half line widths"
       xcb: Fix error reporting if fallback fails
 
+```

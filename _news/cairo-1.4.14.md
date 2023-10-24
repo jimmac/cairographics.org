@@ -3,6 +3,7 @@ title: cairo 1.4.14 release available
 layout: news
 date: 2008-01-14
 ---
+```
 
 From: Carl Worth <cworth@cworth.org>
 Date: Mon, 14 Jan 2008 16:55:00 -0800
@@ -71,3 +72,4 @@ the PostScript output more compatible with recent versions of
 ghostscript that are more strict about Type 3 fonts, for
 example. (Many thanks to Adrian Johnson.)
 
+```

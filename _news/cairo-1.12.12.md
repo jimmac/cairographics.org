@@ -3,6 +3,7 @@ title: cairo 1.12.12 release available
 layout: news
 date: 2013-01-31
 ---
+```
 
 From: Chris Wilson <chris@chris-wilson.co.uk>
 To: cairo-announce@cairographics.org
@@ -93,3 +94,4 @@ Henry Song (5):
 
 Martin Robinson (1):
       gl/msaa: Add a fast path for fills that are simple quads
+```

@@ -3,6 +3,7 @@ title: cairo 1.8.10 release available
 layout: news
 date: 2010-02-19
 ---
+```
 
 From: Carl Worth <cworth@cworth.org>
 Date: Fri, 19 Feb 2010 16:35:42 -0800
@@ -110,3 +111,4 @@ Build fixes
 * Fix to compile on OpenBSD, (which has a libpng.pc file but none of
   libpng10.pc, libpng12.pc, or libpng13.pc which cairo was looking for
   previously).
+```

@@ -3,6 +3,7 @@ title: cairo 1.3.6 snapshot available
 layout: news
 date: 2006-12-06
 ---
+```
 
 From: Carl Worth <cworth@cworth.org>
 Date: 6 Dec 2006
@@ -101,3 +102,4 @@ As of this snapshot, this option does not make any change to cairo,
 but it is possible that future versions of cairo will respect this
 option and change the implementation of various functions as
 appropriate.
+```

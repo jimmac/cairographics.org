@@ -3,6 +3,7 @@ title: cairo 1.14.10 release available
 layout: news
 date: 2017-06-15
 ---
+```
 
 Subject: cairo release 1.14.10 now available
 
@@ -145,3 +146,4 @@ Uli Schlachter (2):
       xcb: Fix error reporting if fallback fails
       xlib: Call XSync() before ignoring errors
 
+```

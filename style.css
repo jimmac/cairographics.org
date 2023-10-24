@@ -201,6 +201,11 @@ ul.news {
     text-overflow: ellipsis;
   }
   ul.news .title { text-transform: capitalize; flex-grow: 1; }
+  .news.container .highlighter-rouge { background-color: var(--cairo2); }
+  .news.container pre, .news.container .highlighter-rouge * {
+    color: var(--cairo1);
+    background-color: var(--cairo2);
+  }
 
 @media screen and (min-width: 650px) {
   ul.news li { padding: 0; text-align: left; }

@@ -3,6 +3,7 @@ title: cairo 1.1.8 snapshot available
 layout: news
 date: 2006-06-14
 ---
+```
 
 From: Carl Worth <cworth@cworth.org>
 Date: 14 Jun 2006
@@ -166,3 +167,4 @@ been fixed:
 
 (Many thanks to Behdad Esfahbod for helping us track down and fix many
 of these.)
+```

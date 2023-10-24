@@ -3,6 +3,7 @@ date: 2018-10-19
 layout: news
 title: cairo release 1.16.0 is now available
 ---
+```
 A new cairo release 1.16.0 is now available from:
 
         https://cairographics.org/releases/cairo-1.16.0.tar.xz
@@ -765,3 +766,4 @@ suzuki toshiya (1):
 Bryce Harrington              -  bryce@bryceharrington.org
 Senior Open Source Developer  -  bryce@osg.samsung.com
 Open Source Group             -  Samsung Research America
+```

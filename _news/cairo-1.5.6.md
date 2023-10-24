@@ -3,6 +3,7 @@ title: cairo 1.5.6 snapshot available
 layout: news
 date: 2008-01-16
 ---
+```
 
 From: Carl Worth <cworth@cworth.org>
 Date: Wed, 16 Jan 2008 11:06:42 -0800
@@ -144,3 +145,4 @@ instead of A8.
 cairo-os2
 ---------
 Allow OS/2 APIs instead of C library allocation functions.
+```

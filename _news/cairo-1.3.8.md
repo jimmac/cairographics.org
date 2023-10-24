@@ -3,6 +3,7 @@ title: cairo 1.3.8 snapshot available
 layout: news
 date: 2006-12-14
 ---
+```
 
 From: Carl Worth <cworth@cworth.org>
 Date: 14 Dec 2006
@@ -57,3 +58,4 @@ more complete input range), from Daniel Amelang.
 Have fun with cairo, everybody!
 
 -Carl
+```

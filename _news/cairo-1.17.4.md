@@ -20,8 +20,7 @@ https://cairographics.org/snapshots/cairo-1.17.4.tar.xz.sha1.asc
 Additionally, a git clone of the source tree: `git clone git://git.cairographics.org/git/cairo` will include a signed `1.17.4` tag which points to a commit named `156cd3eaaebfd8635517c2baf61fcf3627ff7ec2` which can be verified with `git verify-tag 1.17.4` and can be checked out with a command such as `git checkout -b build 1.17.4`.
 
 
-Release 1.17.4 (2020-11-27 Bryce Harrington <bryce@bryceharrington.org>)
-========================================================================
+## Release 1.17.4 (2020-11-27 Bryce Harrington <bryce@bryceharrington.org>)
 
 Thank you to the many people who have contributed the large number of
 bug fixes and refinements since 1.17.2.

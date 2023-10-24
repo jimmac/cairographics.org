@@ -3,6 +3,7 @@ title: cairo 1.12.18 snapshot available
 layout: news
 date: 2014-11-07
 ---
+```
 
 From: Bryce Harrington <bryce@osg.samsung.com>
 To: cairo-announce@cairographics.org
@@ -235,3 +236,4 @@ http://cairographics.org/todo
 Bryce Harrington
 Senior Open Source Developer  -  bryce@osg.samsung.com
 Open Source Group             -  Samsung Research America
+```

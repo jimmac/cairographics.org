@@ -3,6 +3,7 @@ title: cairo 1.12.0 release available
 layout: news
 date: 2012-03-23
 ---
+```
 
 From: Chris Wilson <chris@chris-wilson.co.uk>
 Date: Fri, 23 Mar 2012 20:34:00 +0000
@@ -211,3 +212,4 @@ Igor Oliveira (1):
 
 Kouhei Sutou (1):
       skia: add a missing header into archive
+```

@@ -3,6 +3,7 @@ title: cairo 1.3.12 snapshot available
 layout: news
 date: 2007-01-20
 ---
+```
 
 From: Carl Worth <cworth@cworth.org>
 Date: 20 Jan 2007
@@ -127,3 +128,4 @@ The changes are as follows:
 It's possible there will be one more round of changes to these
 functions, (and perhaps cairo_get_color_stop as well), as we seek to
 establish a unifying convention for returning lists of values.
+```

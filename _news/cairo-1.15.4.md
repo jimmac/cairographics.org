@@ -3,6 +3,7 @@ title: cairo 1.15.4 release available
 layout: news
 date: 2016-12-08
 ---
+```
 
 Subject: cairo snapshot 1.15.4 now available
 
@@ -154,3 +155,4 @@ Bug Fixes
 
 * Various improvements to documentation and tests, compiler warning
   fixes, and an assortment of code refactoring and cleanup.
+```

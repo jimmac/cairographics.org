@@ -3,6 +3,7 @@ title: cairo 1.6.4 release available
 layout: news
 date: 2008-04-11
 ---
+```
 
 From: Carl Worth <cworth@cworth.org>
 Date: Fri, 11 Apr 2008 15:08:04 -0700
@@ -269,3 +270,4 @@ Keith Packard, Ken Herron, Kouhei Sutou, Kristian Høgsberg,
 Larry Ewing, Martin Ejdestig, Nis Martensen, Peter Weilbacher,
 Richard Hult, Shailendra Jain, Søren Sandmann Pedersen,
 Vladimir Vukicevic
+```

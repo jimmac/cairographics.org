@@ -3,6 +3,7 @@ title: cairo 1.3.4 snapshot available
 layout: news
 date: 2006-11-22
 ---
+```
 
 From: Carl Worth <cworth@cworth.org>
 Date: 22 Nov 2006
@@ -184,3 +185,4 @@ tessellator. If you've got primarily simple geometry, we hope things
 won't slowdown too much, but please let us know what slowdown you see,
 if any, so we can calibrate our performance suite against real-world
 impacts.
+```

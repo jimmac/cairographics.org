@@ -3,6 +3,7 @@ title: cairo 1.14.8 release available
 layout: news
 date: 2016-12-07
 ---
+```
 
 A new cairo release 1.14.8 is now available from:
 
@@ -73,3 +74,4 @@ Bug Fixes
 * Cleanup debugging text sent to stdout instead of log.	 (Bug #95227)
 
 
+```

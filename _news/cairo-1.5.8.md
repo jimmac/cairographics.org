@@ -3,6 +3,7 @@ title: cairo 1.5.8 snapshot available
 layout: news
 date: 2008-01-30
 ---
+```
 
 From: Carl Worth <cworth@cworth.org>
 Date: Wed, 30 Jan 2008 05:44:02 -0800
@@ -146,3 +147,4 @@ Improve the handling of the clipping with the win32 and win32-printing
 surfaces.
 
 Fix rendering of non black/white text.
+```

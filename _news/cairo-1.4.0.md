@@ -3,6 +3,7 @@ title: cairo 1.4.0 release available
 layout: news
 date: 2007-03-06
 ---
+```
 
 From: Carl Worth <cworth@cworth.org>
 Date: 6 Mar 2007
@@ -294,3 +295,4 @@ Mathias Hasselmann, Mathieu Lacage, Michael Emmel, Nicholas Miell,
 Pavel Roskin, Peter Weilbacher, Robert O'Callahan,
 Soren Sandmann Pedersen, Stuart Parmenter, T Rowley,
 Vladimir Vukicevic
+```

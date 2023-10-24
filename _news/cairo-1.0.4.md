@@ -3,6 +3,7 @@ title: cairo 1.0.4 released
 layout: news
 date: 2006-03-15
 ---
+```
 
 2006-03-15:
 
@@ -39,3 +40,4 @@ fonts.  For a list of all changes, see ChangeLog.
 Enjoy!
 
 --behdad
+```

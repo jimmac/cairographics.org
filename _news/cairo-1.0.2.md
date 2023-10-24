@@ -3,6 +3,7 @@ title: cairo 1.0.2 released
 layout: news
 date: 2005-10-03
 ---
+```
 
 2005-10-03:
 
@@ -192,3 +193,4 @@ xlib-specific fixes
 -------------------
  * Fix crash from size-0 pixmap due to empty clip region (xlib)
           (Radek Doulík, Carl Worth)
+```

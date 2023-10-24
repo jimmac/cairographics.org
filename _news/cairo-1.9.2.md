@@ -3,6 +3,7 @@ title: cairo 1.9.2 snapshot available
 layout: news
 date: 2009-06-12
 ---
+```
 
 From: Carl Worth <cworth@cworth.org>
 Date: Fri, 12 Jun 2009 12:25:50 -0700
@@ -193,3 +194,4 @@ Still to come:
   Tweaks to tessellator, allocations of patterns, delayed
   initialisation of the xlib backend (reduce the cairo overhead of
   render_bench by ~80%).
+```

@@ -3,6 +3,7 @@ title: cairo 1.9.8 snapshot available
 layout: news
 date: 2010-06-12
 ---
+```
 From: Chris Wilson <chris@chris-wilson.co.uk>
 Date: Sun, 13 Jun 2010 12:26:33 +0100
 To: cairo-announce@cairographics.org
@@ -119,3 +120,4 @@ cairo-svg
 
   A notable improvement was contributed by Alexander Shulgin to enable SVG to
   reference external image through the use an extended MIME data type.
+```

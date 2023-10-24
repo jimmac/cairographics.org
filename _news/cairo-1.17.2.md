@@ -3,6 +3,7 @@ date: 2019-01-31
 layout: news
 title: cairo snapshot 1.17.2 is now available 
 ---
+```
 A new cairo snapshot 1.17.2 is now available from:
 
 https://cairographics.org/snapshots/cairo-1.17.2.tar.xz
@@ -90,3 +91,4 @@ luz.paz (1):
 suzuki toshiya (1):
       [cairo-ft-font.c] conditionalize the changes by 3ec4aa24 on 2018-07-16 for legacy FreeType2 without color font feature
 
+```

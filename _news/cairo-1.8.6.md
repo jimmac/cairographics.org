@@ -3,6 +3,7 @@ title: cairo 1.8.6 release available
 layout: news
 date: 2008-12-13
 ---
+```
 
 From: Chris Wilson <chris@chris-wilson.co.uk>
 Date: Sun, 13 Dec 2008 17:00:04 +0000
@@ -81,3 +82,4 @@ memory access:
 
     XCB backend fails with missing render.
     https://bugs.freedesktop.org/show_bug.cgi?id=18588
+```

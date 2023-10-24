@@ -3,6 +3,7 @@ title: cairo 1.15.2 release available
 layout: news
 date: 2015-12-10
 ---
+```
 
 A new cairo snapshot 1.15.2 is now available from:
 
@@ -304,3 +305,4 @@ Zan Dobersek (1):
 
 江頭幸路 (1):
       Avoid appending an empty slot to an user data array when user_data is NULL.
+```

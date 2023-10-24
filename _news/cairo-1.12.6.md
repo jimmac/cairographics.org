@@ -3,6 +3,7 @@ title: cairo 1.12.6 release available
 layout: news
 date: 2012-10-22
 ---
+```
 
 From: Chris Wilson <chris@chris-wilson.co.uk>
 Date: Mon, 22 Oct 2012 14:22:00 +1000
@@ -110,3 +111,4 @@ Henry Song (3):
 Uli Schlachter (2):
       xcb: Clear the result of create_similar_image
       test: Define optional exception classes
+```

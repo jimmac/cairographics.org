@@ -3,6 +3,7 @@ title: cairo 1.5.14 snapshot available
 layout: news
 date: 2008-03-20
 ---
+```
 
 From: Carl Worth <cworth@cworth.org>
 Date: Thu, 20 Mar 2008 17:08:01 -0700
@@ -173,3 +174,4 @@ XXX: Need to decide if cairo_image_surface_create_for_data should be
 documented and tested as supporting an image with a negative
 stride. Also need to decide the correct return value for
 cairo_format_stride_for_width in case of any error.
+```

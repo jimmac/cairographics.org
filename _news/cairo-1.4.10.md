@@ -3,6 +3,7 @@ title: cairo 1.4.10 release available
 layout: news
 date: 2007-06-27
 ---
+```
 
 From: Carl Worth <cworth@cworth.org>
 Date: Wed, 27 Jun 2007 14:43:25 -0700
@@ -82,3 +83,4 @@ particular extension. (Behdad Esfahbod)
 Eliminate some warnings in cairo-quartz. (Brian Ewins)
 
 Fix build-breaking typo for cairo-directfb. (Chris Wilson)
+```

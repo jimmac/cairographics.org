@@ -3,6 +3,7 @@ title: cairo 1.14.4 release available
 layout: news
 date: 2015-10-28
 ---
+```
 
 A new cairo release 1.14.4 is now available from:
 
@@ -274,3 +275,4 @@ Zan Dobersek (1):
 cairo mailing list
 cairo@cairographics.org
 http://lists.cairographics.org/mailman/listinfo/cairo
+```

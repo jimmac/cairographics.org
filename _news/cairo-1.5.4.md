@@ -3,6 +3,7 @@ title: cairo 1.5.4 snapshot available
 layout: news
 date: 2007-12-05
 ---
+```
 
 From: Carl Worth <cworth@cworth.org>
 Date: Wed, 05 Dec 2007 02:31:16 -0800
@@ -94,3 +95,4 @@ in cairo_quartz_surface_create.
 Fix to correctly handle 0x0 sized surfaces.
 
 Optimize drawing of EXTEND_REPEAT patterns for OS X 10.5.
+```

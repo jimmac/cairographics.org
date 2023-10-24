@@ -3,6 +3,7 @@ title: cairo 1.2.2 release available
 layout: news
 date: 2006-08-08
 ---
+```
 
 From: Carl Worth <cworth@cworth.org>
 Date: 8 Aug 2006
@@ -215,3 +216,4 @@ documentation from being published.
 Fixed several minor typographical errors.
 
 Added an index for new symbols in 1.2.
+```

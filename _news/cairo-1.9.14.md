@@ -3,6 +3,7 @@ title: cairo 1.9.14 snapshot available
 layout: news
 date: 2010-07-26
 ---
+```
 
 From: Chris Wilson <chris@chris-wilson.co.uk>
 Date: Mon, 16 Jul 2010 13:22:33 +0100
@@ -36,3 +37,4 @@ Bugs fixes
     https://bugs.freedesktop.org/show_bug.cgi?id=29122
     https://bugs.freedesktop.org/show_bug.cgi?id=29124
     https://bugs.freedesktop.org/show_bug.cgi?id=29125
+```

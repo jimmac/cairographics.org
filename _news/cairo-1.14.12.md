@@ -3,6 +3,7 @@ title: cairo 1.14.12 stable release available
 layout: news
 date: 2017-12-14
 ---
+```
 
 Subject: Cairo 1.14.12 released
 
@@ -137,3 +138,4 @@ Bryce Harrington (3):
 
 Carlos Garcia Campos (1):
       scaled-font: Fix assert when destroying glyph page
+```

@@ -3,6 +3,7 @@ title: cairo 1.5.20 snapshot available
 layout: news
 date: 2008-04-08
 ---
+```
 
 From: Carl Worth <cworth@cworth.org>
 Date: Tue, 08 Apr 2008 03:11:25 -0700
@@ -89,3 +90,4 @@ cairo-svg
 ---------
 Fix for code that uses cairo_mask() on an intermediate surface which
 is later passed to cairo_mask_surface().
+```

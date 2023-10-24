@@ -3,6 +3,7 @@ title: cairo 1.12.8 release available
 layout: news
 date: 2012-11-04
 ---
+```
 
 From: Chris Wilson <chris@chris-wilson.co.uk>
 Date: Sun, 4 Nov 2012 15:40:51 +0000
@@ -108,3 +109,4 @@ Chris Wilson (19):
 
 Kevin Tardif (1):
       type1-subset, cff-subset: Plugged 2 memory leaks
+```

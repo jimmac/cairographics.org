@@ -3,6 +3,7 @@ title: cairo 1.8.4 release available
 layout: news
 date: 2008-11-14
 ---
+```
 
 From: Carl Worth <cworth@cworth.org>
 Date: Fri, 14 Nov 2008 15:19:24 +0100
@@ -84,3 +85,4 @@ correctly allow NULL parameters as documented.
 
 Fix potential crash on emitting a type3 glyph after having drawn text
 paths from the same font, (for example with cairo_text_path).
+```

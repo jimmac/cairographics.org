@@ -3,6 +3,7 @@ title: cairo 1.5.12 snapshot available
 layout: news
 date: 2008-02-28
 ---
+```
 
 From: Carl Worth <cworth@cworth.org>
 Date: Thu, 28 Feb 2008 16:15:31 -0800
@@ -152,3 +153,4 @@ cairo-atsui
 -----------
 Change default from from Monaco to Helvetica to be more consistent
 with other font backends.
+```

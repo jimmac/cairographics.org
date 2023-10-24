@@ -3,6 +3,7 @@ title: cairo 1.11.4 snapshot available
 layout: news
 date: 2012-03-12
 ---
+```
 
 From: Chris Wilson <chris@chris-wilson.co.uk>
 To: cairo-announce@cairographics.org
@@ -1283,3 +1284,4 @@ Uli Schlachter (131):
 
 Zhigang Gong (1):
       mono: Always bias initial edge advancement
+```

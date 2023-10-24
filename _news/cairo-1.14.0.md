@@ -3,6 +3,7 @@ title: cairo 1.14.0 snapshot available
 layout: news
 date: 2014-10-13
 ---
+```
 
  Date: Mon, 13 Oct 2014 20:31:36 -0700
  From: Bryce Harrington <bryce@osg.samsung.com>
@@ -543,3 +544,4 @@ date: 2014-10-13
  Open Source Group             -  Samsung Research America
 
 
+```

@@ -3,6 +3,7 @@ title: cairo 1.8.0 release available
 layout: news
 date: 2008-09-25
 ---
+```
 
 From: Carl Worth <cworth@cworth.org>
 Date: Thu, 25 Sep 2008 16:11:33 -0700
@@ -195,3 +196,4 @@ freetype's optional lcd_filter function was removed from cairo before
 the 1.8.0 release. We do expect this code to come back in some form in
 the future.
 
+```

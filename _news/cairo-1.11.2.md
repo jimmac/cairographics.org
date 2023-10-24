@@ -3,6 +3,7 @@ title: cairo 1.11.2 snapshot available
 layout: news
 date: 2011-01-23
 ---
+```
 
 From: Chris Wilson <chris@chris-wilson.co.uk>
 To: cairo-announce@cairographics.org
@@ -481,3 +482,4 @@ Uli Schlachter (40):
       xcb: Fix premature pixmap free in boilerplate cleanup
       Add a test case for a bug in the xcb backend
       xcb: Don't finish snapshots when they are detached
+```

@@ -3,6 +3,7 @@ title: cairo 1.9.12 snapshot available
 layout: news
 date: 2010-07-12
 ---
+```
 
 From: Chris Wilson <chris@chris-wilson.co.uk>
 Date: Mon, 12 Jul 2010 12:48:33 +0100
@@ -90,3 +91,4 @@ Bugs fixes
     A regression introduced by the special casing of uploading images to an
     xlib surface in-place which was ignoring the translation applied to the
     image.
+```

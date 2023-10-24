@@ -3,6 +3,7 @@ title: cairo 1.4.8 release available
 layout: news
 date: 2007-06-08
 ---
+```
 
 From: Carl Worth <cworth@cworth.org>
 Date: Fri, 08 Jun 2007 16:14:28 -0700
@@ -96,3 +97,4 @@ ATSUI: Fix glyph measurement: faster and more correct (Brian Ewins)
 
 Quartz: fixed 'extend' behaviour for patterns, improved pattern performance,
 and a few smaller correctness fixes. (Brian Ewins, Vladimir Vukicevic)
+```

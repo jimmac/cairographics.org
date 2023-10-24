@@ -3,6 +3,7 @@ title: cairo 1.8.8 release available
 layout: news
 date: 2009-06-16
 ---
+```
 
 From: Chris Wilson <chris@chris-wilson.co.uk>
 Date: Tue, 16 Jun 2009 14:26:29 +0100
@@ -99,3 +100,4 @@ Various improvements to the documentation, reported by Truc Troung:
    https://bugs.freedesktop.org/show_bug.cgi?id=20182
    https://bugs.freedesktop.org/show_bug.cgi?id=20441
 
+```

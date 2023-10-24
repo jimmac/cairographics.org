@@ -3,6 +3,7 @@ title: cairo 1.4.12 release available
 layout: news
 date: 2007-11-27
 ---
+```
 
 From: Carl Worth <cworth@cworth.org>
 Date: Tue, 27 Nov 2007 08:15:50 -0700
@@ -105,3 +106,4 @@ take care since several of the fixes are spread across multiple
 commits in cairo's history. And the related commits are not always
 adjacent to each other. Please don't hesitate to ask for help or
 review of anything you might do.
+```

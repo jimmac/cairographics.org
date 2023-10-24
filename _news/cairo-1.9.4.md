@@ -3,6 +3,7 @@ title: cairo 1.9.4 snapshot available
 layout: news
 date: 2009-10-15
 ---
+```
 
 From: Carl Worth <cworth@cworth.org>
 Date: Thu, 15 Oct 2009 16:34:18 -0700
@@ -154,3 +155,4 @@ Special thanks:
 
    To the AuroraUX team for providing access to one of their OpenSolaris
    machines for cairo and pixman development.  http://www.auroraux.org/
+```

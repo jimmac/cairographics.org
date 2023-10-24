@@ -3,6 +3,7 @@ title: cairo 1.3.2 snapshot available
 layout: news
 date: 2006-11-15
 ---
+```
 
 From: Carl Worth <cworth@cworth.org>
 Date: 15 Nov 2006
@@ -232,3 +233,4 @@ as significant, (2x compared to 3x). Oddly the improvement to text
 rendering performance was more than twice as good (5x compared to
 2x). I don't know what the reason for that is, but I don't think it's
 anything anybody should complain about.
+```

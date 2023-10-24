@@ -3,6 +3,7 @@ title: cairo 1.2.6 release available
 layout: news
 date: 2006-11-02
 ---
+```
 
 From:   Behdad Esfahbod <besfahbo@redhat.com>
 Date:   2 Nov 2006
@@ -275,3 +276,4 @@ Vladimir Vukicevic:
 
 Yevgen Muntyan:
       Define WINVER if it's not defined. (bug 6456)
+```

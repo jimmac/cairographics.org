@@ -3,6 +3,7 @@ title: cairo 1.2.0 release available
 layout: news
 date: 2006-07-01
 ---
+```
 
 From: Carl Worth <cworth@cworth.org>
 Date: 1 Jul 2006
@@ -351,3 +352,4 @@ And at least the following bugs have been fixed:
  * SVG: Fix memory leak when using cairo_mask
  * Fix EXTEND_REFLECT and EXTEND_PAD to not crash (though these are
    still not yet fully implemented for surface patterns).
+```

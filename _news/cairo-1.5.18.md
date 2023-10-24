@@ -3,6 +3,7 @@ title: cairo 1.5.18 snapshot available
 layout: news
 date: 2008-04-06
 ---
+```
 
 From: Carl Worth <cworth@cworth.org>
 Date: Sun, 06 Apr 2008 03:31:08 -0700
@@ -148,3 +149,4 @@ lack of coverage in our test suite):
 
 CGFont backend returns 0 font extents
 https://bugs.freedesktop.org/show_bug.cgi?id=15319
+```

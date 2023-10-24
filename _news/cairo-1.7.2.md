@@ -3,6 +3,7 @@ title: cairo 1.7.2 snapshot available
 layout: news
 date: 2008-08-11
 ---
+```
 
 From: Behdad Esfahbod <behdad@behdad.org>
 Date: Mon, 11 Aug 2008 13:05:45 -0400
@@ -230,3 +231,4 @@ Known issues:
 - - User fonts using other fonts in their rendering are currently embedded in
   PDF as fallback bitmap glyphs.  This will be (hopefully) fixed before 1.8.
   The test case test/user-font-proxy.c demonstrates this.
+```

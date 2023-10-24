@@ -3,6 +3,7 @@ title: cairo 1.8.2 release available
 layout: news
 date: 2008-10-30
 ---
+```
 
 From: Carl Worth <cworth@cworth.org>
 Date: Thu, 30 Oct 2008 08:36:56 -0700
@@ -173,3 +174,4 @@ win32: Fix compatibility with Windows Mobile (Vladimir Vukicevic).
 win32: Fix static builds to not do __declspec(dllimport) on public
 functions. This requires the user to set a CAIRO_WIN32_STATIC_BUILD
 environment variable when compiling (Behdad Esfahbod).
+```

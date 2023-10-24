@@ -3,6 +3,7 @@ title: cairo 1.12.2 release available
 layout: news
 date: 2012-04-29
 ---
+```
 
 From: Chris Wilson <chris@chris-wilson.co.uk>
 Date: Sun, 29 Arp 2012 21:04:00 +1000
@@ -214,3 +215,4 @@ Uli Schlachter (4):
       README: Note that xcb is no longer experimental
       xcb: Fix SHM in _get_image()
       xlib: Disable fallback compositor with xlib-xcb
+```

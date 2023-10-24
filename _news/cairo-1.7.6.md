@@ -3,6 +3,7 @@ title: cairo 1.7.6 snapshot available
 layout: news
 date: 2008-09-18
 ---
+```
 
 From: Carl Worth <cworth@cworth.org>
 Date: Thu, 18 Sep 2008 15:26:44 -0700
@@ -119,3 +120,4 @@ http://bugs.freedesktop.org/show_bug.cgi?id=16819
 
 Several other minor fixes.
 
+```

@@ -3,6 +3,7 @@ title: cairo 1.12.14 release available
 layout: news
 date: 2013-02-10
 ---
+```
 
 From: Chris Wilson <chris@chris-wilson.co.uk>
 To: cairo-announce@cairographics.org
@@ -64,3 +65,4 @@ Bug fixes
   similar-images.
   https://bugs.freedesktop.org/show_bug.cgi?id=60519
 
+```

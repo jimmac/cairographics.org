@@ -3,6 +3,7 @@ title: cairo 1.15.8 development snapshot available
 layout: news
 date: 2017-08-29
 ---
+```
 
 Subject: cairo snapshot 1.15.8 now available
 
@@ -155,3 +156,4 @@ Roadmap and unscheduled things to do, (please feel free to help out):
         http://cairographics.org/roadmap
         http://cairographics.org/todo
 
+```

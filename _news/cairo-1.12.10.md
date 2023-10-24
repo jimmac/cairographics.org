@@ -3,6 +3,7 @@ title: cairo 1.12.10 release available
 layout: news
 date: 2013-01-16
 ---
+```
 
 From: Chris Wilson <chris@chris-wilson.co.uk>
 Date: Wed, 16 Jan 2013 21:03:00 +0000
@@ -167,3 +168,4 @@ Uli Schlachter (4):
 Zozó Teki (1):
       recording: Append new elements to the end of the bbtree chain
 
+```

@@ -3,6 +3,7 @@ title: cairo 1.3.16 snapshot (1.4.0 release candidate) available
 layout: news
 date: 2007-03-03
 ---
+```
 
 From: Behdad Esfahbod <behdad@behdad.org>
 Date: 3 Mar 2007
@@ -181,3 +182,4 @@ Things not in this release
     problems it caused. The patch is interesting since it made a big
     benefit for text rendering performance---so we'll work to bring a
     corrected version of this patch back as soon as possible.
+```

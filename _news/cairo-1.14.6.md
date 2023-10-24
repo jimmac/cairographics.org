@@ -3,6 +3,7 @@ title: cairo 1.14.6 release available
 layout: news
 date: 2015-12-09
 ---
+```
 
 A new cairo release 1.14.6 is now available from:
 
@@ -70,3 +71,4 @@ Bryce Harrington (4):
       Revert "win32: Add a win32 boilerplate that uses a real window"
       Release 1.14.6
       Start 1.14.7 development.
+```

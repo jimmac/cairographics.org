@@ -3,6 +3,7 @@ title: cairo 1.15.10 release available
 layout: news
 date: 2017-12-14
 ---
+```
 Subject: cairo snapshot 1.15.10 now available
 
 A new cairo snapshot 1.15.10 is now available from:
@@ -239,3 +240,4 @@ Mikhail Fludkov (2):
 Tom Schoonjans (1):
       Use UTF-8 filenames on Windows
 
+```

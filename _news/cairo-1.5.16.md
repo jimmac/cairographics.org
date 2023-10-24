@@ -3,6 +3,7 @@ title: cairo 1.5.16 snapshot available
 layout: news
 date: 2008-04-01
 ---
+```
 
 From: Carl Worth <cworth@cworth.org>
 Date: Tue, 01 Apr 2008 16:25:32 -0700
@@ -160,3 +161,4 @@ Fix transformation of source pattern for cairo_stroke().
 cairo-win32
 -----------
 Avoid crash in create_similar is cairo_win32_surface_create fails.
+```

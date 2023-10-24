@@ -3,6 +3,7 @@ title: cairo 1.5.2 snapshot available
 layout: news
 date: 2007-10-30
 ---
+```
 
 From: Carl Worth <cworth@cworth.org>
 Date: Tue, 30 Oct 2007 22:47:52 -0700
@@ -308,3 +309,4 @@ paths (Carl Worth).
 Fix crashes due to extreme transformation of the pen, (seems to show
 up in many .swf files for some reason) (Carl Worth).
 
+```
