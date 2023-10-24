@@ -178,12 +178,13 @@ ul.news {
   margin: 0;
   padding: 0;
 }
+  ul.news li { padding: 0 0 1rem 0; }
   ul.news li>a {
     gap: 1rem;
     row-gap: 1rem;
     display: flex;
-    flex-direction: row;
-    padding: 1rem 3rem;
+    flex-direction: column;
+    padding: .5rem 1rem;
     border-radius: var(--br);
     transition: all 0.35s cubic-bezier(0.17, 0.89, 0.32, 1.28);
   }
@@ -202,6 +203,15 @@ ul.news {
     text-overflow: ellipsis;
   }
   ul.news .title { text-transform: capitalize; flex-grow: 1; }
+
+@media screen and (min-width: 650px) {
+  ul.news li { padding: 0; }
+  ul.news li>a {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 3rem;
+  }
+}
 
 code {
   font-family: monospace;
